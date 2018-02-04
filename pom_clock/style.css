@@ -1,0 +1,29 @@
+body{
+  background-image: url("https://images3.alphacoders.com/819/819697.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+
+h1, h2, #timeDiv, #breakDiv{
+  text-align: center;
+  font-family: Lobster;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 10px darkblue;
+}
+
+h3{
+  text-align: center;
+  font-family: New Roman;
+  color: white;
+  text-shadow: 1px 1px 5px black, 0 0 50px blue, 0 0 10px darkblue;
+}
+
+h2{
+  display: inline;
+}
+
+#start, #reset{
+  margin: 10px;
+}

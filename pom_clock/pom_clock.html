@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>pom_clock</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"> <!-- Link to css page -->
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"></link>
+<audio id="buzzer" src="https://freesound.org/data/previews/371/371581_1265752-lq.mp3"></audio>
+  <div class= 'container-fluid text-center'>
+    <h1>Pomodoro Clock</h1>
+    <h3>Developer: John Pageler</h3>
+    <div id= 'timeDiv'> <!-- id used instead of class to store buttons-->
+      <h1 id= 'title1'>Session Time</h1>
+      <a href= '#' class= 'btn btn-primary' id= 'minus5Session'>-</a>
+      <h2 id= 'trackTime'></h2>
+      <h2 id= 'num'>25</h2> <!-- session number -->
+      <a href= '#' class= 'btn btn-primary' id= 'plus5Session'>+</a>
+      <a href= '#' class= 'btn btn-primary' id= 'reset'>Reset</a>
+    </div>
+    <div id= 'breakDiv'> <!-- id used instead of class to store buttons-->
+      <h1 id= 'title1'>Break Time</h1>
+      <a href= '#' class= 'btn btn-primary' id= 'minus5Break'>-</a>
+      <h2 id= 'breakNum'>25</h2> <!-- break number -->
+      <a href= '#' class= 'btn btn-primary' id= 'plus5Break'>+</a>
+    </div>
+    <a href= '#' class= 'btn btn-primary' id= 'start'>Start</a>
+</div>
+
+<!-- 
+<div class="container">
+  <footer>
+    <p>I would like to thank the following resources for providing the free knowledge and information throughout this learning pursuit toward my goal of "Front End Certification," without which this path would be untraversable: FreeCodeCamp , mozilla MDN WEB DOCS, w3schools.com, stackoverflow.com, jquery.com, bootstrap.com. YouTube References:  FreeCodeCamp Instructors, Kudvenkat at PragimTech, CodingTutorials360, Mark Snow, Root Tech. "Visual Studio Code" YouTube References: Chris Johnson, LevelUpTuts. "GitHub" YouTube References: FreeCodeCamp Instructors, thenewboston. "Formspree.io" YouTube Reference: Prateep Gedupudi.</p>
+  </footer>
+</div> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script> <!-- Link to js page -->
+</body>
+
+</html>
